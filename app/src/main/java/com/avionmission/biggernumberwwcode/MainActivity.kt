@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
         if (isAnswerCorrect) {
             // Correct
             // Change Background Color
-            backgroundView.setBackgroundColor(Color.GREEN)
+            backgroundView.setBackgroundColor(Color.CYAN)
             // Show a toast
             Toast.makeText(this,"Correct", Toast.LENGTH_SHORT).show()
         } else {
